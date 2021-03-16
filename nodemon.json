@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "watch": [
+    "index.js"
+  ],
+  "ext": "js jsx json ejs",
+  "exec": "NODE_ENV=development node ./src/index.js || exit 1"
+}
